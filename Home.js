@@ -135,7 +135,7 @@ marginTop:-5
             elevation:2,
             backgroundColor:"#FFF",
             marginLeft:20,
-            marginTop:20,
+            marginTop:40,
             borderRadius:15,
             marginBottom:10,
             width:160
@@ -154,6 +154,95 @@ marginTop:-5
     <Text style={{
         fontWeight:"bold"
     }}>OFFICE</Text>
+    <Text style={{fontWeight:"bold",left:60,color:"green"}}>$400</Text>
+            </View>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+        onPress={()=>navigation.navigate("Details")}
+        style={{
+            height:250,
+            elevation:2,
+            backgroundColor:"#FFF",
+            marginLeft:20,
+            marginTop:40,
+            borderRadius:15,
+            marginBottom:10,
+            width:160
+        }}>
+            <Image
+            source={require("./p.jpg")}
+            style={{
+            height:200,
+            width:200,
+            }}/>
+            <View style={{
+           flexDirection:"row",
+           paddingTop:10,
+           paddingHorizontal:10
+            }}>
+    <Text style={{
+        fontWeight:"bold"
+    }}>Russia</Text>
+    <Text style={{fontWeight:"bold",left:60,color:"green"}}>$800</Text>
+            </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=>navigation.navigate("Details")}
+        style={{
+            height:250,
+            elevation:2,
+            backgroundColor:"#FFF",
+            marginLeft:20,
+            marginTop:40,
+            borderRadius:15,
+            marginBottom:10,
+            width:160
+        }}>
+            <Image
+            source={require("./p.jpg")}
+            style={{
+            height:200,
+            width:200,
+            }}/>
+            <View style={{
+           flexDirection:"row",
+           paddingTop:10,
+           paddingHorizontal:10
+            }}>
+    <Text style={{
+        fontWeight:"bold"
+    }}>OFFICE</Text>
+    <Text style={{fontWeight:"bold",left:60,color:"green"}}>$400</Text>
+            </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=>navigation.navigate("Details")}
+        style={{
+            height:250,
+            elevation:2,
+            backgroundColor:"#FFF",
+            marginLeft:20,
+            marginTop:40,
+            borderRadius:15,
+            marginBottom:10,
+            width:160
+        }}>
+            <Image
+            source={require("./p.jpg")}
+            style={{
+            height:200,
+            width:200,
+            }}/>
+            <View style={{
+           flexDirection:"row",
+           paddingTop:10,
+           paddingHorizontal:10
+            }}>
+    <Text style={{
+        fontWeight:"bold"
+    }}>OFFICE</Text>
+    <Text style={{fontWeight:"bold",left:60,color:"green"}}>$400</Text>
             </View>
         </TouchableOpacity>
     </ScrollView>
@@ -165,6 +254,7 @@ marginTop:-5
             paddingHorizontal:20,
             width:"100%",
             alignItems:"center",
+            marginTop:-90
             
         }}>
             <View style={{width:"50%"}}>
@@ -201,7 +291,23 @@ marginTop:-5
             </View>
         </View>
     </View>
-    
+    <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        style={{marginBottom:-900}}
+>
+        <Image
+        source={require("./image1.jpeg")}
+        style={{marginTop:20,marginHorizontal:20,width:250,borderRadius:10}}/>
+
+<Image
+        source={require("./image1.jpeg")}
+        style={{marginTop:20,marginHorizontal:20,width:250,borderRadius:10}}/>
+
+<Image
+        source={require("./image1.jpeg")}
+        style={{marginTop:20,marginHorizontal:20,width:250,borderRadius:10}}/>
+    </ScrollView>
 </View>
     )
 
