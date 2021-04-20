@@ -4,4 +4,4 @@ Works to do:
 #navigation
 #Design Prfofile Screen
 #SS
-[](assets/SS(Basic UI).jpg)
+![](assets/SS(Basic UI).jpg)
